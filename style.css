@@ -1,0 +1,39 @@
+body {
+  background-color: rgba(2, 99, 13, 0.773);
+}
+.container {
+  margin-top: 12%;
+  margin-left: 28%;
+  border: 3px solid bisque;
+  height: 400px;
+  width: 50%;
+  position: relative;
+}
+#number {
+  font-size: 80px;
+  color: bisque;
+  position: absolute;
+  left: 50%;
+}
+.buttons {
+  display: flex;
+}
+.a,
+.b,
+.c {
+  position: absolute;
+  height: 45px;
+  width: 130px;
+}
+.a {
+  top: 70%;
+  left: 23%;
+}
+.b {
+  top: 70%;
+  left: 43%;
+}
+.c {
+  top: 70%;
+  left: 63%;
+}
